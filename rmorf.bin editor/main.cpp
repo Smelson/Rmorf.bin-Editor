@@ -84,6 +84,18 @@ int main()
 
     fout.write(Null, 1);
     fout.write(Null, 1);
+
+    unsigned char* valptr = (unsigned char*)&value;
+    fout.seekp(12);
+    fout << valptr;
+
+    fout.seekp(0);
+	fstream file("rmorf.bin");
+	int size = 0;
+	file.seekg(0, std::ios::end);
+	size = file.tellg();
+	unsigned char* file_size = (unsigned char*)&size;
+	fout << file_size;
     fout.close();
 
     cout << "DONE BLYAD!";
