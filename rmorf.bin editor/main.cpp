@@ -33,14 +33,14 @@ int main()
     fout.write(unknown, 4);
 
     char user_choice;
-    cout << "Choose a preset that you need: w - water, c - clothes, t - trees, f - flags" << endl;
+    cout << "Choose a preset that you need: c - clothes or f - flags" << endl;
     cin >> user_choice;
 
     switch (user_choice) {
-    case 'w':
-        fout.write(FW, 2);
-        cout << "Count of objects: " << endl;
-        break;
+   // case 'w':
+   //    fout.write(FW, 2);
+   //    cout << "Count of objects: " << endl;
+   //    break;
     case 'f':
         fout.write(FF, 2);
         cout << "Count of objects: " << endl;
@@ -49,10 +49,10 @@ int main()
         fout.write(FC, 2);
         cout << "Count of objects: " << endl;
         break;
-    case 't':
-        fout.write(FT, 2);
-        cout << "Count of objects: " << endl;
-        break;
+    //case 't':
+    //  fout.write(FT, 2);
+    //  cout << "Count of objects: " << endl;
+    //  break;
     default:
         cout << "Couldn't find preset!";
         fout.close();
