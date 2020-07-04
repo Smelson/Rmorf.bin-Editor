@@ -56,10 +56,10 @@ int main()
 		fout.write(FC, 2);
 		cout << "Count of objects: " << endl;
 		break;
-	case 't':
-		fout.write(FT, 2);
-		cout << "Count of objects: " << endl;
-		break;
+	//case 't':
+	//	fout.write(FT, 2);
+	//	cout << "Count of objects: " << endl;
+	//	break;
 	default:
 		cout << "Couldn't find preset, try again!" << endl;
 		goto UserChoice;
@@ -90,7 +90,6 @@ int main()
 		fout.write(Null, 1);
 	}
 
-	fout.write(Null, 1);
 	fout.write(Null, 1);
 
 	// Writing count of objects on 12th offset
