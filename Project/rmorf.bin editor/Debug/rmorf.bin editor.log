@@ -1,3 +1,3 @@
 ﻿  main.cpp
-e:\rmorf.bin editor\rmorf.bin editor\rmorf.bin editor\main.cpp(106): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+e:\rmorf.bin editor\rmorf.bin editor\rmorf.bin editor\main.cpp(114): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
   rmorf.bin editor.vcxproj -> E:\rmorf.bin editor\rmorf.bin editor\Debug\rmorf.bin editor.exe

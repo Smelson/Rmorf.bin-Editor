@@ -19,7 +19,7 @@ const char* Null = "\x00";
 const char* FW = "\xE8\x03";
 const char* FF = "\xA0\x00";
 const char* FC = "\xE8\x03";
-const char* FT = "\x64\x00";
+const char* FT = "\xFF\x00";
 const char* unknown2 = "\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00";
 
 int main()
@@ -39,27 +39,37 @@ int main()
 
 	// Choosing preset that we need
 	char user_choice;
-	UserChoice:
-	cout << "Choose a preset that you need: c - clothes, f - flags or w - water:" << endl;
+UserChoice:
+	cout << "Choose a preset that you need: c - clothes, f - flags, w - water or t - trees:" << endl;
 	cin >> user_choice;
 
 	switch (user_choice) {
 	case 'w':
 		fout.write(FW, 2);
+		fout.write(unknown2, 14);
 		cout << "Count of objects: " << endl;
 		break;
 	case 'f':
 		fout.write(FF, 2);
+		fout.write(unknown2, 14);
 		cout << "Count of objects: " << endl;
 		break;
 	case 'c':
 		fout.write(FC, 2);
+		fout.write(unknown2, 14);
 		cout << "Count of objects: " << endl;
 		break;
-	//case 't':
-	//	fout.write(FT, 2);
-	//	cout << "Count of objects: " << endl;
-	//	break;
+	case 't':
+		fout.write(FT, 2);
+		fout.seekp(16);
+		fout.write("\x00\x00", 2);
+		fout.seekp(24);
+		fout.write("\x2D\x01", 2);
+		fout.write(unknown2, 14);
+		fout.seekp(36);
+		remove("\x01\x00"); // it is fucking костыль, need fix
+		cout << "Count of objects: " << endl;
+		break;
 	default:
 		cout << "Couldn't find preset, try again!" << endl;
 		goto UserChoice;
@@ -67,7 +77,6 @@ int main()
 	}
 
 	// Writing "unknown2" const
-	fout.write(unknown2, 14);
 	int i = 0;
 	int value;
 	cin >> value;
