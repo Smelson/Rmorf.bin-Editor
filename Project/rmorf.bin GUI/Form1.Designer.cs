@@ -32,12 +32,15 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.creaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createAFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openAFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.insertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.addObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +48,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.creaToolStripMenuItem,
+            this.insertToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -56,6 +60,7 @@
             // 
             this.creaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.createAFileToolStripMenuItem,
+            this.openAFileToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.creaToolStripMenuItem.Name = "creaToolStripMenuItem";
             this.creaToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -64,16 +69,30 @@
             // createAFileToolStripMenuItem
             // 
             this.createAFileToolStripMenuItem.Name = "createAFileToolStripMenuItem";
-            this.createAFileToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.createAFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.createAFileToolStripMenuItem.Text = "Create A File...";
             this.createAFileToolStripMenuItem.Click += new System.EventHandler(this.createAFileToolStripMenuItem_Click);
+            // 
+            // openAFileToolStripMenuItem
+            // 
+            this.openAFileToolStripMenuItem.Name = "openAFileToolStripMenuItem";
+            this.openAFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openAFileToolStripMenuItem.Text = "Open A File...";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // insertToolStripMenuItem
+            // 
+            this.insertToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addObjectToolStripMenuItem});
+            this.insertToolStripMenuItem.Name = "insertToolStripMenuItem";
+            this.insertToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.insertToolStripMenuItem.Text = "Insert";
             // 
             // aboutToolStripMenuItem
             // 
@@ -101,6 +120,13 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
+            // 
+            // addObjectToolStripMenuItem
+            // 
+            this.addObjectToolStripMenuItem.Name = "addObjectToolStripMenuItem";
+            this.addObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addObjectToolStripMenuItem.Text = "Add object";
+            this.addObjectToolStripMenuItem.Click += new System.EventHandler(this.addObjectToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -133,6 +159,9 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ToolStripMenuItem openAFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem insertToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addObjectToolStripMenuItem;
     }
 }
 
