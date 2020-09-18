@@ -66,6 +66,9 @@
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.renameObjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DeleteObjToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
@@ -97,28 +100,28 @@
             // createAFileToolStripMenuItem
             // 
             this.createAFileToolStripMenuItem.Name = "createAFileToolStripMenuItem";
-            this.createAFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createAFileToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.createAFileToolStripMenuItem.Text = "Create";
             this.createAFileToolStripMenuItem.Click += new System.EventHandler(this.createAFileToolStripMenuItem_Click);
             // 
             // openAFileToolStripMenuItem
             // 
             this.openAFileToolStripMenuItem.Name = "openAFileToolStripMenuItem";
-            this.openAFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openAFileToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.openAFileToolStripMenuItem.Text = "Open";
             this.openAFileToolStripMenuItem.Click += new System.EventHandler(this.openAFileToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -134,14 +137,14 @@
             // InsertGroupToolStripMenuItem
             // 
             this.InsertGroupToolStripMenuItem.Name = "InsertGroupToolStripMenuItem";
-            this.InsertGroupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.InsertGroupToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.InsertGroupToolStripMenuItem.Text = "Insert group";
             this.InsertGroupToolStripMenuItem.Click += new System.EventHandler(this.InsertGroupToolStripMenuItem_Click);
             // 
             // InsertObjectToolStripMenuItem
             // 
             this.InsertObjectToolStripMenuItem.Name = "InsertObjectToolStripMenuItem";
-            this.InsertObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.InsertObjectToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.InsertObjectToolStripMenuItem.Text = "Insert object";
             this.InsertObjectToolStripMenuItem.Click += new System.EventHandler(this.InsertObjectToolStripMenuItem_Click);
             // 
@@ -156,7 +159,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.aboutToolStripMenuItem.Text = "Program";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -195,7 +198,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(479, 50);
+            this.textBox1.Location = new System.Drawing.Point(494, 99);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -203,42 +206,42 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(479, 76);
+            this.textBox2.Location = new System.Drawing.Point(494, 125);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(479, 102);
+            this.textBox3.Location = new System.Drawing.Point(494, 151);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 6;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(479, 128);
+            this.textBox4.Location = new System.Drawing.Point(494, 177);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 7;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(479, 154);
+            this.textBox5.Location = new System.Drawing.Point(494, 203);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 8;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(479, 180);
+            this.textBox6.Location = new System.Drawing.Point(494, 229);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 9;
             // 
             // buttonApply
             // 
-            this.buttonApply.Location = new System.Drawing.Point(479, 216);
+            this.buttonApply.Location = new System.Drawing.Point(494, 265);
             this.buttonApply.Name = "buttonApply";
             this.buttonApply.Size = new System.Drawing.Size(100, 23);
             this.buttonApply.TabIndex = 10;
@@ -249,7 +252,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(346, 53);
+            this.label1.Location = new System.Drawing.Point(346, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 13);
             this.label1.TabIndex = 11;
@@ -258,7 +261,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(346, 79);
+            this.label2.Location = new System.Drawing.Point(346, 128);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 13);
             this.label2.TabIndex = 12;
@@ -267,7 +270,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(346, 105);
+            this.label3.Location = new System.Drawing.Point(346, 154);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 13);
             this.label3.TabIndex = 13;
@@ -276,7 +279,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(346, 131);
+            this.label4.Location = new System.Drawing.Point(346, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 13);
             this.label4.TabIndex = 14;
@@ -285,7 +288,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(346, 157);
+            this.label5.Location = new System.Drawing.Point(346, 206);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 13);
             this.label5.TabIndex = 15;
@@ -294,7 +297,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(346, 183);
+            this.label6.Location = new System.Drawing.Point(346, 232);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 13);
             this.label6.TabIndex = 16;
@@ -323,13 +326,13 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.DelGrToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(119, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(108, 26);
             // 
             // DelGrToolStripMenuItem
             // 
             this.DelGrToolStripMenuItem.Name = "DelGrToolStripMenuItem";
-            this.DelGrToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.DelGrToolStripMenuItem.Text = "Удалить";
+            this.DelGrToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.DelGrToolStripMenuItem.Text = "Delete";
             this.DelGrToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // contextMenuStrip2
@@ -338,21 +341,68 @@
             this.renameObjToolStripMenuItem,
             this.DeleteObjToolStripMenuItem1});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(162, 48);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(118, 48);
             // 
             // renameObjToolStripMenuItem
             // 
             this.renameObjToolStripMenuItem.Name = "renameObjToolStripMenuItem";
-            this.renameObjToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.renameObjToolStripMenuItem.Text = "Переименовать";
+            this.renameObjToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.renameObjToolStripMenuItem.Text = "Rename";
             this.renameObjToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // DeleteObjToolStripMenuItem1
             // 
             this.DeleteObjToolStripMenuItem1.Name = "DeleteObjToolStripMenuItem1";
-            this.DeleteObjToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
-            this.DeleteObjToolStripMenuItem1.Text = "Удалить";
+            this.DeleteObjToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
+            this.DeleteObjToolStripMenuItem1.Text = "Delete";
             this.DeleteObjToolStripMenuItem1.Click += new System.EventHandler(this.DeleteObjToolStripMenuItem1_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Unknown/None",
+            "Flag",
+            "Flag (Parnik)",
+            "Flag (Parnik) 2",
+            "Flag (Racing Circuit)",
+            "Tree",
+            "Tree 2",
+            "Tree 3",
+            "Spruce",
+            "Water/Curtain",
+            "Water 2",
+            "Clothes",
+            "Clothes 2",
+            "Clothes (Strong wind)",
+            "Clothes (Strong wind) 2",
+            "Signboard",
+            "Signboard 2",
+            "Truck (MISE09)"});
+            this.comboBox1.Location = new System.Drawing.Point(349, 50);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(139, 21);
+            this.comboBox1.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(346, 31);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 13);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Preset";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(494, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Apply Preset";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -360,6 +410,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(634, 312);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -434,6 +487,9 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem renameObjToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem DeleteObjToolStripMenuItem1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button1;
     }
 }
 

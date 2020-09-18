@@ -7,22 +7,12 @@ E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.cspr
 E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csproj.CoreCompileInputs.cache
 E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.exe
 E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.pdb
-E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csprojAssemblyReference.cache
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe.config
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.exe
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.pdb
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.pdb
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csprojResolveAssemblyReference.cache
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Form1.resources
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Properties.Resources.resources
-D:\Files\ForGames\for_Mafia\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csproj.GenerateResource.Cache
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe.config
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.exe
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.pdb
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.pdb
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csprojResolveAssemblyReference.cache
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Form1.resources
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Properties.Resources.resources
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csproj.GenerateResource.Cache
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe.config
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.exe
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.pdb
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.exe
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Debug\rmorf.bin GUI.pdb
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csprojResolveAssemblyReference.cache
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Form1.resources
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin_GUI.Properties.Resources.resources
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Debug\rmorf.bin GUI.csproj.GenerateResource.Cache

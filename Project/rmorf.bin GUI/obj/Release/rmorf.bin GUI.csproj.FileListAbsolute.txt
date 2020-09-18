@@ -1,19 +1,18 @@
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe.config
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.pdb
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Form1.resources
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Properties.Resources.resources
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.GenerateResource.Cache
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.exe
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.pdb
-D:\Files\C#\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csprojResolveAssemblyReference.cache
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe.config
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.pdb
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Form1.resources
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Properties.Resources.resources
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.GenerateResource.cache
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.CoreCompileInputs.cache
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.exe
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.pdb
-E:\rmorf.bin editor GUI\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csprojAssemblyReference.cache
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe.config
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.pdb
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csprojAssemblyReference.cache
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Form1.resources
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Properties.Resources.resources
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.GenerateResource.cache
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.CoreCompileInputs.cache
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.exe
+E:\rmorf.bin editor GUI\rmorf.bin GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.pdb
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe.config
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.exe
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.pdb
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.exe
+D:\rmorf_bin_GUI\rmorf.bin GUI\bin\Release\rmorf.bin GUI.pdb
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Form1.resources
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin_GUI.Properties.Resources.resources
+D:\rmorf_bin_GUI\rmorf.bin GUI\obj\Release\rmorf.bin GUI.csproj.GenerateResource.Cache

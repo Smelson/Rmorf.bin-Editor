@@ -87,6 +87,7 @@ namespace rmorf.bin_GUI
             {
                 ParseFile();
                 Objects1.Items.Clear();
+                comboBox1.Text = "Unknown/None";
                 VisualGroup();
             }
         }
@@ -159,6 +160,7 @@ namespace rmorf.bin_GUI
                 headAgc = (uint)rmorfgrouplist.Count;
                 VisualGroup();
                 Objects1.Items.Clear();
+                comboBox1.Text = "Unknown/None";
                 FilesaveString(false);
             }
         }
@@ -171,6 +173,7 @@ namespace rmorf.bin_GUI
                 headAgc = (uint)rmorfgrouplist.Count;
                 VisualGroup();
                 Objects1.Items.Clear();
+                comboBox1.Text = "Unknown/None";
                 FilesaveString(false);
             }
         }
@@ -202,7 +205,7 @@ namespace rmorf.bin_GUI
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Rmorf.bin Editor v1.0.\nAuthors: Smelson, Legion, Firefox3860.\n(c) 2020. From Russia with love.", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Rmorf.bin Editor v1.1.\nAuthors: Smelson, Legion, Firefox3860.\n(c) 2020. From Russia with love.", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void buttonApply_Click(object sender, EventArgs e)
@@ -248,6 +251,7 @@ namespace rmorf.bin_GUI
 
                         VisualGroup();
                         Objects1.Items.Clear();
+                        comboBox1.Text = "Unknown/None";
                         FilesaveString(false);
                         FilesaveString(true);
                     }
@@ -397,6 +401,7 @@ namespace rmorf.bin_GUI
                     nameslist = rmorfgrouplist[a].objNames;
                     rmorfgrouplist[a] = new RmorfGroup(grMc, grToa, grFrq, grU3, grU4, grU5, nameslist);
                     FilesaveString(false);
+                    VisualComboBox();
                 }
                 catch (Exception ex)
                 {
@@ -435,6 +440,7 @@ namespace rmorf.bin_GUI
         private void VisualObject(int ngr)
         {
             Objects1.Items.Clear();
+            comboBox1.Text = "Unknown/None";
 
             if (ngr >= 0 && rmorfgrouplist[ngr].objNames != null)
             {
@@ -447,7 +453,253 @@ namespace rmorf.bin_GUI
                 textBox4.Text = rmorfgrouplist[ngr].unknown3.ToString();
                 textBox5.Text = rmorfgrouplist[ngr].unknown4.ToString();
                 textBox6.Text = rmorfgrouplist[ngr].unknown5.ToString();
+                VisualComboBox();
             }
+        }
+
+        private void VisualComboBox()
+        {
+            if (textBox2.Text == "128" && textBox3.Text == "160" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Flag";
+            }
+
+            if (textBox2.Text == "128" && textBox3.Text == "170" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Flag (Parnik)";
+            }
+
+            if (textBox2.Text == "128" && textBox3.Text == "200" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Flag (Parnik) 2";
+            }
+
+            if (textBox2.Text == "128" && textBox3.Text == "100" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Flag (Racing Circuit)";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "500" && textBox4.Text == "1001" && textBox5.Text == "0" && textBox6.Text == "0")
+            {
+                comboBox1.Text = "Tree";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "500" && textBox4.Text == "1001" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Tree 2";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "800" && textBox4.Text == "401" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Tree 3";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "400" && textBox4.Text == "1001" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Spruce";
+            }
+
+            if (textBox2.Text == "128" && textBox3.Text == "1000" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Water/Curtain";
+            }
+
+            if (textBox2.Text == "1" && textBox3.Text == "2000" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Water 2";
+            }
+
+            if (textBox2.Text == "129" && textBox3.Text == "1000" && textBox4.Text == "1001" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Clothes";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "1000" && textBox4.Text == "1" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Clothes 2";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "100" && textBox4.Text == "301" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Clothes (Strong wind)";
+            }
+
+            if (textBox2.Text == "128" && textBox3.Text == "200" && textBox4.Text == "601" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Clothes (Strong wind) 2";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "1000" && textBox4.Text == "201" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Signboard";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "800" && textBox4.Text == "601" && textBox5.Text == "1" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Signboard 2";
+            }
+
+            if (textBox2.Text == "0" && textBox3.Text == "150" && textBox4.Text == "51" && textBox5.Text == "0" && textBox6.Text == "1")
+            {
+                comboBox1.Text = "Truck (MISE09)";
+            }
+
+            //comboBox1_Visual();
+        }
+
+        private void comboBox1_Visual()
+        {
+            switch (comboBox1.Text)
+            {
+                case "Flag":
+                    textBox2.Text = "128";
+                    textBox3.Text = "160";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Flag (Parnik)":
+                    textBox2.Text = "128";
+                    textBox3.Text = "170";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Flag (Parnik) 2":
+                    textBox2.Text = "128";
+                    textBox3.Text = "200";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Flag (Racing Circuit)":
+                    textBox2.Text = "128";
+                    textBox3.Text = "100";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Tree":
+                    textBox2.Text = "0";
+                    textBox3.Text = "500";
+                    textBox4.Text = "1001";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Tree 2":
+                    textBox2.Text = "0";
+                    textBox3.Text = "500";
+                    textBox4.Text = "1001";
+                    textBox5.Text = "0";
+                    textBox6.Text = "0";
+                    break;
+
+                case "Tree 3":
+                    textBox2.Text = "0";
+                    textBox3.Text = "800";
+                    textBox4.Text = "401";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Spruce":
+                    textBox2.Text = "0";
+                    textBox3.Text = "400";
+                    textBox4.Text = "1001";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Water/Curtain":
+                    textBox2.Text = "128";
+                    textBox3.Text = "1000";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Water 2":
+                    textBox2.Text = "1";
+                    textBox3.Text = "2000";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Clothes":
+                    textBox2.Text = "129";
+                    textBox3.Text = "1000";
+                    textBox4.Text = "1001";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Clothes 2":
+                    textBox2.Text = "0";
+                    textBox3.Text = "1000";
+                    textBox4.Text = "1";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Clothes (Strong wind)":
+                    textBox2.Text = "0";
+                    textBox3.Text = "100";
+                    textBox4.Text = "301";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Clothes (Strong wind) 2":
+                    textBox2.Text = "128";
+                    textBox3.Text = "200";
+                    textBox4.Text = "601";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Signboard":
+                    textBox2.Text = "0";
+                    textBox3.Text = "1000";
+                    textBox4.Text = "201";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Signboard 2":
+                    textBox2.Text = "0";
+                    textBox3.Text = "800";
+                    textBox4.Text = "601";
+                    textBox5.Text = "1";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Truck (MISE09)":
+                    textBox2.Text = "0";
+                    textBox3.Text = "150";
+                    textBox4.Text = "51";
+                    textBox5.Text = "0";
+                    textBox6.Text = "1";
+                    break;
+
+                case "Unknown/None":
+                    textBox2.Text = "0";
+                    textBox3.Text = "0";
+                    textBox4.Text = "0";
+                    textBox5.Text = "0";
+                    textBox6.Text = "0";
+                    break;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1_Visual();
         }
     }
 }
